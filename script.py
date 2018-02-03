@@ -62,7 +62,7 @@ for i in range(len(layer2_url)):
     layer3_name_temp, layer3_url_temp = get_url(layer2_url[i], 'a', 'href', exclude_lst)
     for j in range(len(layer3_name_temp)):
         d[layer1_name[i]][layer3_name_temp[j]] = {}
-        layer4_name_temp, layer4_url_temp = get_url(layer3_url_temp[j], 'a', 'href', exclude_lst)
+        layer4_name_temp, layer4_url_temp = get_url(layer3_url_temp[j], 'a', 'href', exclude_lst+['favicon.ico', 'template.shtml'])
         for k in range(len(layer4_name_temp)):
             d[layer1_name[i]][layer3_name_temp[j]] = layer4_url_temp
 

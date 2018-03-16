@@ -6,6 +6,7 @@ This is the GitHub repository for our final project of the Computational Content
 
 This is the README file of our annotated scripts.
 
+
 ## Part I: Data Scraping
 
 ### get_url.py

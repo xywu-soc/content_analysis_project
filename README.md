@@ -24,7 +24,7 @@ Parse the plain texts. This file takes the raw .txt files of data scraped from t
 
 ## Part III: Data Analysis
 
-### 1. Interactive Network Analysis
+### 1. Interaction Network Analysis
 #### Network_script.R
 This file runs the network analysis of characters based on their speaking turns in the soap operas.
 

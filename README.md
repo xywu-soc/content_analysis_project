@@ -24,15 +24,15 @@ Parse the plain texts. This file takes the raw .txt files of data scraped from t
 
 ## Part III: Data Analysis
 
-### 1. Interactive Network Analysis (Analysis Part 1)
+### 1. Interactive Network Analysis
 #### Network_script.R
 This file runs the network analysis of characters based on their speaking turns in the soap operas.
 
-### 2. Topic Modeling: LDA (Analysis Part 2)
+### 2. Topic Modeling: LDA
 #### topic_scene_character.py
 This file runs the LDA topic model and its visualization.
 
-### 3. Character Complexity (Analysis Part 3)
+### 3. Character Complexity
 These files contain within-character complexity. They install and import the pre-trained Word2vec models, project each statement of each character into the vector space, aggregate each word vector into centroid, calculate the cosine similarity of each centroid within characters, and build a cosine similarity matrix.
 #### 3.1 Word2vec_AMC.ipynb
 This file gets character complexity for the AMC show.
@@ -41,7 +41,7 @@ This file gets character complexity for the GH show.
 #### 3.3 Word2vec_DoOL.ipynb
 This file gets character complexity for the DoOL show.
 
-### 4. Character Similarity (Analysis Part 4)
+### 4. Character Similarity
 These files contain the between-character similarity (analysis part 4). 
 #### 4.1 character_similarity_method1.py
 This file runs the 1st method to get character similarity.

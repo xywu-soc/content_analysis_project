@@ -5,9 +5,10 @@ Created on Tue Feb  6 22:12:41 2018
 
 Computational Content Analysis: Final Project -- Texts Scraper
 
-@author: Xingyun Wu
+This file is to scrape the transcripts of soap operas from webpages. It uses the
+url.csv file constructed in 'get_url.py'. And it stores the scraped texts in
+.txt files by year and by show.
 """
-
 
 import pandas as pd
 import requests
@@ -68,4 +69,5 @@ def main(start):
 
 
 #main()
-main(3444)
+#main(3444)
+main(8154)
